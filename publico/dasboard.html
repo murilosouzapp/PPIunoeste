@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Finanças</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .expense-summary {
+      margin-bottom: 20px;
+    }
+    .expense-category {
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .expense-value {
+      font-size: 1.1em;
+      color: #333;
+    }
+    .expense-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .expense-table th,
+    .expense-table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .expense-table th {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Dashboard de Finanças</h1>
+
+  <div class="expense-summary">
+    <div class="expense-category">Despesa Geral</div>
+    <div class="expense-value">R$ 500,00</div>
+  </div>
+
+  <div class="expense-summary">
+    <div class="expense-category">Gasto com Abastecimento</div>
+    <div class="expense-value">R$ 12.875,00</div>
+  </div>
+
+  <div class="expense-summary">
+    <div class="expense-category">Custo da Operação (média)</div>
+    <div class="expense-value">R$ 1.114,58</div>
+  </div>
+
+  <h2>Despesas com Pneus e Manutenção</h2>
+
+  <table class="expense-table">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Descrição</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Aqui você pode adicionar linhas para cada despesa com pneus e suas manutenções -->
+      <tr>
+        <td>16/02/24</td>
+        <td>Substituição de pneus</td>
+        <td>R$ 800,00</td>
+      </tr>
+      <tr>
+        <td>17/02/24</td>
+        <td>Balanceamento e alinhamento</td>
+        <td>R$ 150,00</td>
+      </tr>
+      <!-- Adicione mais linhas conforme necessário -->
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
